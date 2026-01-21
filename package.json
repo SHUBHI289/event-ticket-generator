@@ -1,0 +1,19 @@
+{
+  "name": "sujata-event-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start:backend": "cd event-backend && npm start",
+  "start:frontend": "cd event-frontend && npm run dev",
+  "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
