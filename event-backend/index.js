@@ -45,6 +45,3 @@ ensureTables()
     console.error('❌ Failed to init database:', err);
     process.exit(1);
   });
-import { initTables } from "./models/index.js";
-
-await initTables();
